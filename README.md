@@ -1,16 +1,23 @@
 # zybo
 
-A new Flutter project.
+Zybo is a Flutter-based application built using Bloc State Management and follows Clean Architecture principles. The app utilizes Dio for API calling to ensure efficient network requests and responses.
 
-## Getting Started
+Features
+✅ Bloc for State Management
+✅ Clean Architecture for maintainability
+✅ Dio for API calls
+✅ Secure Storage for JWT Authentication
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Project Structure
+The project follows a clean architecture approach, which includes:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+presentation/ → UI & State Management (Bloc)
+domain/ → Use cases & Entities
+data/ → API Services & Repository
+Technologies Used
+Flutter
+Dart
+Bloc (State Management)
+Dio (API Calls)
+Flutter Secure Storage (For JWT)
